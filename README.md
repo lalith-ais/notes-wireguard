@@ -63,7 +63,7 @@ each time wg1 is edited use ifdown / ifup commnds to reread config
 ### create config wg0.conf
 <pre>
 [Interface]
-Address = 10.66.15.2/24
+Address = 10.66.15.2/24 <---- each peer is asigned IP
 PrivateKey = privatekey generate above for client
 ListenPort = 21842 - any random port
 
