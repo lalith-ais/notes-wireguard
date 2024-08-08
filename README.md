@@ -37,6 +37,12 @@ post-down ip link del $IFACE
 </pre>
 
 
+### open udp port
+eth1 is the external interface 
+<pre>
+  iptables -A INPUT -p udp -i eth1 --dport 59653 -j ACCEPT
+</pre>
+
 
 ### bring up tunnel
 each time wg1 is edited use ifdown / ifup commnds to reread config
