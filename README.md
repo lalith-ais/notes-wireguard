@@ -13,7 +13,7 @@ ListenPort = 59653
 
 PublicKey = <peer public key> 
 AllowedIPs = 10.66.15.2
-# note AllowedIPs should only be the tunnel IP of the client
+#### note AllowedIPs should only be the tunnel IP of the client
 
 
 
