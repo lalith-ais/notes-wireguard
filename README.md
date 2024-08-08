@@ -29,7 +29,7 @@ add more peers to expand the network. Each peer must have a unique static ip
 <pre>
 auto wg1
 iface wg1 inet static
-address 10.66.15.1
+address 10.66.15.1  <---- server side IP of the tunnel endpoint 
 netmask 255.255.255.0
 pre-up ip link add $IFACE type wireguard
 pre-up wg setconf $IFACE /etc/wireguard/$IFACE.conf
